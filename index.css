@@ -1,0 +1,85 @@
+* {
+
+	margin: 0; 
+	padding: 0; 
+}
+body {
+	
+	text-align: center;
+}
+.headerPage {
+	
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	
+	height: 100px;
+	z-index: 10;
+	background: #FFEBEB; 
+	width: 100%;
+	position: fixed; 
+}
+.logo {
+	/**/
+    padding: 1px;
+	width: 8%;
+	float: left; 
+	
+}
+
+.logo :first-child{
+	
+ margin: 10px;
+}
+
+#logo-img{
+	
+height: 100%;
+width: 100%;
+}
+a{ 
+	
+    text-decoration: none; 
+    font-family: poppins;
+}
+
+nav {
+	float: right; 
+	line-height: 100px;
+}
+nav a {
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px; 
+	color: black;  
+}
+.banner-area {
+	width: 100%;
+	position: fixed; 
+	top: 100px; 
+}
+
+.content-area {
+	width: 100%;
+	position: relative; 
+	top: 650px;
+	background: #ebebeb;
+	height: 1000px;
+}
+.content-area h2 { 
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+#imgprincipal {
+    width: 90%;
+    height: 70%;
+}
